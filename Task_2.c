@@ -11,4 +11,5 @@ int main(){
     time_t now = time(NULL);
     char * outputTime = ctime(&now);    
     printf("%s", outputTime);
+    
 }
